@@ -104,7 +104,7 @@ See the [`_examples`](./_examples) directory for more examples, including listin
   5xx responses. Mutating operations may therefore be submitted more than once, so callers should use contexts and
   record names carefully when handling failures.
 
-### Testing (live account only)
+## Testing (live account only)
 
 `provider_test.go` contains an opt-in test for a real OpenProvider account. Run it with the account credentials and a
 zone that is safe to modify:
